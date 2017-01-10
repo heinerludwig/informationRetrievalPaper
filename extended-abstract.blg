@@ -6,44 +6,47 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: sample.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 13 entries,
+Warning--empty address in vrs:book
+Warning--empty address in 3dinteraction:book
+You've used 16 entries,
             5283 wiz_defined-function locations,
-            1321 strings with 16335 characters,
-and the built_in function-call counts, 8762 in all, are:
-= -- 1060
-> -- 267
+            1338 strings with 16703 characters,
+and the built_in function-call counts, 11396 in all, are:
+= -- 1374
+> -- 312
 < -- 1
-+ -- 71
-- -- 102
-* -- 508
-:= -- 1052
-add.period$ -- 74
-call.type$ -- 13
-change.case$ -- 74
-chr.to.int$ -- 13
-cite$ -- 13
-duplicate$ -- 778
-empty$ -- 572
-format.name$ -- 114
-if$ -- 2031
++ -- 80
+- -- 201
+* -- 672
+:= -- 1347
+add.period$ -- 90
+call.type$ -- 16
+change.case$ -- 89
+chr.to.int$ -- 16
+cite$ -- 18
+duplicate$ -- 933
+empty$ -- 688
+format.name$ -- 132
+if$ -- 2541
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 19
-newline$ -- 148
-num.names$ -- 78
-pop$ -- 272
+missing$ -- 23
+newline$ -- 171
+num.names$ -- 96
+pop$ -- 342
 preamble$ -- 1
-purify$ -- 125
+purify$ -- 152
 quote$ -- 0
-skip$ -- 206
+skip$ -- 244
 stack$ -- 0
-substring$ -- 691
-swap$ -- 54
-text.length$ -- 1
+substring$ -- 1127
+swap$ -- 60
+text.length$ -- 164
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 105
-warning$ -- 0
-while$ -- 82
+type$ -- 124
+warning$ -- 2
+while$ -- 101
 width$ -- 0
-write$ -- 236
+write$ -- 278
+(There were 2 warnings)

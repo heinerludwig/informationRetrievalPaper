@@ -82,6 +82,21 @@
 \url{http://dx.doi.org/10.1007/978-3-642-03101-4}}
 
 
+\bibitem{minorityreport:movie}
+{20th Century~Fox Dream Works~Pictures}. 2002.
+\newblock Minority Report.
+\newblock cinematic movie.   (3 October 2002).
+\newblock
+
+
+\bibitem{vrs:book}
+{R.~A. Earnshaw}. 1993.
+\newblock {\em Virtual Reality Systems}.
+\newblock Academic Press.
+\newblock
+\showISBNx{9780122277481}
+
+
 \bibitem{heilig:sensorama}
 {Morton~L. Heilig}. 1962.
 \newblock Sensorama Simulator.
@@ -124,20 +139,28 @@
 \shownote{Nintendo, Kyoto, Japan. Played August 2011.}
 
 
-\bibitem{psy:gangnam}
-{Psy}. 2012.
-\newblock Gangnam Style.
-\newblock Video.   (15 July 2012).
+\bibitem{3dinteraction:book}
+{Joao Rodrigues}. 2016.
+\newblock {\em Handbook of Research on Human-Computer Interfaces, Developments,
+  and Applications (Advances in Human and Social Aspects of Technology)}.
+\newblock IGI Global.
 \newblock
-\newblock
-\shownote{Retrieved August 22, 2014 from
-  \url{https://www.youtube.com/watch?v=9bZkp7q19f0}.}
+\showISBNx{1522504354}
+\showURL{%
+\url{http://www.igi-global.com/book/handbook-research-human-computer-interfaces/146921}}
 
 
 \bibitem{Schwartz:1995:GBF}
 {Marilyn Schwartz}. 1995.
 \newblock {\em Guidelines for Bias-Free Writing}.
 \newblock ERIC, Bloomington, IN, USA.
+\newblock
+
+
+\bibitem{ironman:movie}
+{Marvel Studios}. 2010.
+\newblock Iron Man 2.
+\newblock cinematic movie.   (6 May 2010).
 \newblock
 
 

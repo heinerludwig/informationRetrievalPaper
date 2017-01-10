@@ -136,11 +136,14 @@ content with your own material.
 Gestik als Eingabemedium zur Erstellung von Phantombildern ist gänzlich neu, der Aufbau einer geeigneten Gesten-Sprache demnach unumgänglich. 
 
 Das Buch Emotionales Interaktionsdesign beschäftigt sich
- u.a. mit der Semantik von Gestensprachen und zeigt Notwendigkeiten wie Abbruch-Gesten oder die allgemeine Robustheit von Gesten auf~\cite{Dorau11}. Kaisa Väänänen und Klaus Böhm weisen auf Schwierigkeiten wie Ermüdung der Gliedma{\ss}en und eingeschränkte Exaktheit während der Gesten-Nutzung hin, betonen jedoch gleichzeitig die vereinfachte Navigation und Manipulation für verschiedenste Nutzergruppen in virtuellen 3D-Räumen[X].
-In [] ist laut einer Nutzerstudie die Metaphern-Nutzung bei Gesten weniger effektiv als die Nutzung von Freihand-Gesten. 
+ u.a. mit der Semantik von Gestensprachen und zeigt Notwendigkeiten wie Abbruch-Gesten oder die allgemeine Robustheit von Gesten auf~\cite{Dorau11}. Kaisa Väänänen und Klaus Böhm weisen auf Schwierigkeiten wie Ermüdung der Gliedma{\ss}en und eingeschränkte Exaktheit während der Gesten-Nutzung hin, betonen jedoch gleichzeitig die vereinfachte Navigation und Manipulation für verschiedenste Nutzergruppen in virtuellen 3D-Räumen~\cite{vrs:book}.
+In~\cite{3dinteraction:book} ist laut einer Nutzerstudie die Metaphern-Nutzung bei Gesten weniger effektiv als die Nutzung von Freihand-Gesten. 
 Gemä{\ss} [7,8] ist allgemein die Nutzung von formalisierten Gesten (``semaphoric gestures'') nicht sinnvoll, da sie während der Interaktion unnatürlich wirkt.
-[S.54] besagt jedoch, dass beim Gro{\ss}teil der gestenbasierten Eingabesysteme sowohl formalisierte, als auch Freihand-Gesten genutzt werden, bspw. bei Interaktionen über grö{\ss}ere Distanzen.
-Nicht zuletzt haben Hollywood-Filme wie \textit{Iron Man} oder \textit{Minority Report} zur Inspiration für die User Experience und bei der Erstellung der Nutzungsoberfläche gedient[].
+~\cite{3dinteraction:book} besagt jedoch, dass beim Gro{\ss}teil der
+gestenbasierten Eingabesysteme sowohl formalisierte, als auch
+Freihand-Gesten genutzt werden.
+
+Nicht zuletzt haben Hollywood-Filme wie \textit{Iron Man}~\cite{ironman:movie} oder \textit{Minority Report}~\cite{minorityreport:movie} zur Inspiration für die User Experience und bei der Erstellung der Nutzungsoberfläche gedient.
 
 Zur Kombination von Virtueller Realität mit Gestenmanipulation haben die Firmen \textit{eyeSight\footnote{\url{eyesight-tech.com/vr-ar.html}}} und 
 \textit{pebbles\footnote{\url{www3.oculus.com/en-us/blog/pebbles-interfaces-joins-oculus/}}} unabhängig voneinander eine VR-Brille mit mehreren Kameras kombiniert um die Interaktion mit dem virtuellen Raum für den Nutzer möglich zum machen.
@@ -156,16 +159,20 @@ Zur Kombination von Virtueller Realität mit Gestenmanipulation haben die Firmen 
   \end{minipage}
 \end{marginfigure}
 
-
-\includegraphics[width=1\marginparwidth]{figures/system_overview}
+\begin{figure}
+  \centering
+  \includegraphics[width=1\marginparwidth]{figures/system_overview}
+  \caption{Virtuelle Objekte im System}
+  \label{fig:systemoverview}
+\end{figure}
 
 \section{Konzept}
 
-Die Idee zur digitalen Erstellung von Phantombildern ist ein digitales System, welches den Nutzer in eine virtuelle Realität versetzt, die mittels Gesten manipulierbar ist. Durch die Interaktion mit Suchanfragen- und Ergebnisbestückten Objekten steuert der Nutzer die Erstellung des Phantombildes, indem er diese Objekte auswählt, verschiebt, löscht oder kombiniert. 
+Das Konzept zur digitalen Erstellung von Phantombildern ist ein digitales System, welches den Nutzer in eine virtuelle Realität versetzt, die mittels Gesten manipulierbar ist. Durch die Interaktion mit suchanfragen- und ergebnisrepräsentierenden Objekten steuert der Nutzer die Erstellung des Phantombildes, indem er diese Objekte auswählt, verschiebt, löscht oder kombiniert. 
 
 Der Nutzer navigiert das System von einem Punkt aus. Um einzelne Objekte genauer zu betrachten, bewegt er sich also nicht körperlich, sondern verändert die Position des virtuellen Raums mittels Translations- und Skalierungsgesten.
 
-Die Objekte sind im 180-Winkel "schwebend" um den Nutzer angeordnet(Bild). Durch sowohl freie, als auch objektorientierte Gesten, kann er, mittels ein- oder zweihändiger Gestikulation, Suchanfragen, Ergebnisse oder Ergebnisvorschläge speichern, löschen, zum Ergebnis-pool hinzufügen, neu kombinieren oder rückgängig machen.
+Die Objekte sind im 180-Winkel "schwebend" um den Nutzer angeordnet (Figure~\ref{fig:systemoverview}). Durch sowohl freie, als auch objektorientierte Gesten, kann er, mittels ein- oder zweihändiger Gestikulation, Suchanfragen, Ergebnisse oder Ergebnisvorschläge speichern, löschen, zum Ergebnis-pool hinzufügen, neu kombinieren oder rückgängig machen.
 Das System wird immer nur von einem Nutzer gleichzeitig benutzt,
 weitere Personen können während des gesamten Findungsprozesses
 ausschlie{\ss}lich als Zuschauer involviert werden. So ist eine
@@ -365,7 +372,7 @@ exact date; do include the page numbers if available.
 
 References should be in ACM citation format.  This
 includes citations to Internet
-resources~\cite{CHINOSAUR:venue,cavender:writing,psy:gangnam}
+resources~\cite{CHINOSAUR:venue,cavender:writing,ironman:movie}
 according to ACM format, although it is often appropriate to include
 URLs directly in the text, as above. Example reference formatting for
 individual journal articles~\cite{ethics}, articles in conference
@@ -376,7 +383,7 @@ issue~\cite{kaye:puc},
 websites~\cite{acm_categories,cavender:writing},
 tweets~\cite{CHINOSAUR:venue}, patents~\cite{heilig:sensorama}, 
 games~\cite{supermetroid:snes}, and
-online videos~\cite{psy:gangnam} is given here.  See the examples of
+online videos~\cite{ironman:movie} is given here.  See the examples of
 citations at the end of this document and in the accompanying
 \texttt{BibTeX} document. This formatting is a edited version of the
 format automatically generated by the ACM Digital Library
