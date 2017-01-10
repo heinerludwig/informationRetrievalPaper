@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.6)  10 JAN 2017 12:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.6)  10 JAN 2017 15:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -567,267 +567,304 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 135.
 
-
-Overfull \hbox (6.10368pt too wide) in paragraph at lines 136--137
-\T1/phv/m/n/10 bildern ist gän-zlich neu, der Auf-bau einer geeigneten Gesten- 
-
- []
-
 [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (40.77817pt too wide) in paragraph at lines 138--145
-\T1/phv/m/n/10 u.a. mit der Se-man-tik von Gesten-sprachen und zeigt Notwendigk
-eiten 
+Overfull \hbox (15.8743pt too wide) in paragraph at lines 144--148
+\T1/phv/m/n/10 Gesten (``semaphoric ges-tures'') nicht sin-nvoll, da sie wÃ¤hre
+nd 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 148.
+(Font)              <7> on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 148.
+(Font)              scaled to size 7.35999pt on input line 151.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 148.
+(Font)              <8> on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 148.
+(Font)              scaled to size 5.51999pt on input line 151.
 
-Overfull \hbox (1.69077pt too wide) in paragraph at lines 149--149
+Overfull \hbox (1.69077pt too wide) in paragraph at lines 152--152
 [][][][][]$\T1/phv/m/n/9 www3 . oculus . com / en-[]us / blog / pebbles-[]inter
 faces-[]joins-[]oculus/$[][]| 
  []
 
-<figures/cats.png, id=74, 238.491pt x 238.0092pt>
+<figures/cats.png, id=82, 238.491pt x 238.0092pt>
 File: figures/cats.png Graphic file (type png)
  <use figures/cats.png>
-Package pdftex.def Info: figures/cats.png used on input line 154.
+Package pdftex.def Info: figures/cats.png used on input line 157.
 (pdftex.def)             Requested size: 117.07678pt x 116.83978pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 158.
+(caption)                particular \caption on input line 161.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `sec:sidebar' on page 2 undefined on input line 158.
+LaTeX Warning: Reference `sec:sidebar' on page 2 undefined on input line 161.
 
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 9.0pt on input line 158.
+(Font)              scaled to size 9.0pt on input line 161.
 
-LaTeX Warning: Reference `sec:sidebar' on page 2 undefined on input line 158.
+LaTeX Warning: Reference `sec:sidebar' on page 2 undefined on input line 161.
 
 
-Overfull \hbox (2.5575pt too wide) in paragraph at lines 151--160
+Overfull \hbox (2.5575pt too wide) in paragraph at lines 154--163
  $[]$ 
  []
 
-<figures/system_overview.png, id=76, 445.665pt x 409.53pt>
+<figures/system_overview.png, id=84, 445.665pt x 409.53pt>
 File: figures/system_overview.png Graphic file (type png)
 
 <use figures/system_overview.png>
-Package pdftex.def Info: figures/system_overview.png used on input line 164.
+Package pdftex.def Info: figures/system_overview.png used on input line 167.
 (pdftex.def)             Requested size: 130.08621pt x 119.53552pt.
 
-Overfull \hbox (0.85048pt too wide) in paragraph at lines 171--172
-\T1/phv/m/n/10 Re-al-ität ver-setzt, die mit-tels Gesten ma-nip-ulier-bar ist. 
-Durch 
+Overfull \hbox (2.47008pt too wide) in paragraph at lines 174--175
+\T1/phv/m/n/10 lung des Phan-tom-bildes, in-dem er diese Ob-jekte auswÃ¤hlt, 
  []
 
 
-Overfull \hbox (2.50716pt too wide) in paragraph at lines 175--180
+Overfull \hbox (2.50716pt too wide) in paragraph at lines 178--183
 []\T1/phv/m/n/10 Die Ob-jekte sind im 180-Winkel "schwebend" um den Nutzer 
  []
 
 
-Overfull \hbox (8.67117pt too wide) in paragraph at lines 175--180
-\T1/phv/m/n/10 nisvorschläge spe-ich-ern, löschen, zum Ergebnis-pool hinzufü- 
+Overfull \hbox (6.8584pt too wide) in paragraph at lines 178--183
+\T1/phv/m/n/10 be-nutzt, weit-ere Per-so-nen kÃ¶n-nen wÃ¤hrend des gesamten 
+ []
+
+
+Overfull \hbox (9.02pt too wide) in paragraph at lines 178--183
+\T1/phv/m/n/10 wer-den. So ist eine Mod-er-a-toren-rolle eines Ex-perten denkba
+r, 
  []
 
 [2 <./figures/cats.png> <./figures/system_overview.png>]
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 183.
+(Font)              scaled to size 9.19998pt on input line 186.
 
-Overfull \hbox (5.50989pt too wide) in paragraph at lines 184--185
+Overfull \hbox (5.50989pt too wide) in paragraph at lines 187--188
 []\T1/phv/m/n/10 Sehr di-rekte In-ter-ak-tion vom Nutzer mit der Be-nutzung- 
  []
 
 
-Overfull \hbox (3.71597pt too wide) in paragraph at lines 186--187
+Overfull \hbox (3.71597pt too wide) in paragraph at lines 189--190
 []\T1/phv/m/n/10 Nutzerbefriedigung durch im-mer sicht-baren Fortschritt.  
  []
 
-LaTeX Font Info:    Try loading font information for T1+txr on input line 224.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txr.fd
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 194.
+
+
+Overfull \hbox (7.74141pt too wide) in paragraph at lines 195--197
+\T1/phv/m/n/10 Suchan-frage zu starten, wÃ¤hlt der Nutzer ein Gesichtsmerk- 
+ []
+
+
+Overfull \hbox (9.38855pt too wide) in paragraph at lines 199--202
+[]\T1/phv/m/n/10 Durch die navigation-geste kann der Nutzer den â€žErgebnis- 
+ []
+
+
+Overfull \hbox (16.94138pt too wide) in paragraph at lines 199--202
+\T1/phv/m/n/10 Nutzer virtuell zum Ergebnis-Objekt be-wegt und eine Skalierung 
+
+ []
+
+[3]
+LaTeX Font Info:    Try loading font information for T1+txr on input line 241.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for TS1+txr on input line 224.
+LaTeX Font Info:    Try loading font information for TS1+txr on input line 241.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Overfull \hbox (2.07854pt too wide) in paragraph at lines 233--239
+Overfull \hbox (2.07854pt too wide) in paragraph at lines 250--256
 \T1/phv/m/n/10 ver-sität, Weiÿen-bach, Zül-lighoven, Århus, etc.). These 
  []
 
 File: figures/cats.png Graphic file (type png)
 <use figures/cats.png>
-Package pdftex.def Info: figures/cats.png used on input line 251.
+Package pdftex.def Info: figures/cats.png used on input line 268.
 (pdftex.def)             Requested size: 117.07678pt x 116.83978pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 255.
+(caption)                particular \caption on input line 272.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `sec:sidebar' on page 3 undefined on input line 255.
+LaTeX Warning: Reference `sec:sidebar' on page 4 undefined on input line 272.
 
 
-LaTeX Warning: Reference `sec:sidebar' on page 3 undefined on input line 255.
+LaTeX Warning: Reference `sec:sidebar' on page 4 undefined on input line 272.
 
 
-Overfull \hbox (2.5575pt too wide) in paragraph at lines 248--257
+Overfull \hbox (2.5575pt too wide) in paragraph at lines 265--274
  $[]$ 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 263.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 280.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.19998pt on input line 263.
+(Font)              scaled to size 9.19998pt on input line 280.
 
-LaTeX Warning: Reference `fig:sample' on page 3 undefined on input line 263.
+LaTeX Warning: Reference `fig:sample' on page 4 undefined on input line 280.
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 265.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 282.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [3]
+)
 
-LaTeX Warning: Reference `tab:table1' on page 4 undefined on input line 271.
+LaTeX Warning: Reference `tab:table1' on page 4 undefined on input line 288.
 
 
-Overfull \hbox (2.7185pt too wide) in paragraph at lines 300--303
+Overfull \hbox (2.7185pt too wide) in paragraph at lines 317--320
 []\T1/phv/m/n/10 For more in-for-ma-tion and links to in-struc-tions and re-sou
 rces, 
  []
 
-<figures/map.png, id=115, 1023.825pt x 484.81125pt>
+<figures/map.png, id=128, 1023.825pt x 484.81125pt>
 File: figures/map.png Graphic file (type png)
  <use figures/map.png>
-Package pdftex.def Info: figures/map.png used on input line 306.
+Package pdftex.def Info: figures/map.png used on input line 323.
 (pdftex.def)             Requested size: 317.08534pt x 150.14937pt.
 
-Overfull \hbox (1.74515pt too wide) in paragraph at lines 314--318
+Overfull \hbox (1.74515pt too wide) in paragraph at lines 331--335
 [][]$\T1/phv/m/n/9 http : / / www . sheridanprinting . com / sigchi / ACM-[]SIG
 -[]distilling-[]settings . 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []\T1/phv/m/n/10 So long as you don't type out-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/phv/m/n/10 side the right mar-gin or bleed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/phv/m/n/10 into the gut-ter, it's okay to put
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/phv/m/n/10 an-no-ta-tions over here on the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/phv/m/n/10 left, too; this an-no-ta-tion is near
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/phv/m/n/10 Hawaii. You'll have to man-u-ally
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/phv/m/n/10 align the mar-gin para-graphs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/phv/m/n/10 to your L[]T[]X floats us-ing the
  []
 
-[4]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 340.
+(caption)                particular \caption on input line 357.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (2.5575pt too wide) in paragraph at lines 325--342
+Overfull \hbox (2.5575pt too wide) in paragraph at lines 342--359
  $[]$ 
  []
 
-
-LaTeX Warning: Marginpar on page 5 moved.
-
-
-Overfull \hbox (17.96135pt too wide) in paragraph at lines 373--395
+[5 <./figures/map.png>]
+Overfull \hbox (17.96135pt too wide) in paragraph at lines 390--412
 \T1/phv/m/n/10 an en-tire jour-nal is-sue [[][]9[][]], web-sites [[][]1[][], []
 []3[][]], tweets [[][]4[][]], patents [[][]8[][]], 
  []
 
-[5 <./figures/map.png>] (./extended-abstract.bbl
+(./extended-abstract.bbl
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 41.
- [6])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 401.
 
-Overfull \vbox (1.0787pt too high) has occurred while \output is active []
+Overfull \vbox (1.96777pt too high) has occurred while \output is active []
 
 
-[7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 401.
+[6])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 418.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 418.
  (./extended-abstract.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 401.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 401.
-Package rerunfilecheck Info: File `extended-abstract.out' has not changed.
-(rerunfilecheck)             Checksum: 45EA9182D9ED1812F5B1B9531DBB5411;611.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 418.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 418.
 
+
+Package rerunfilecheck Warning: File `extended-abstract.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `extended-abstract.out':
+(rerunfilecheck)             Before: 8F7DE0BBA4A22DC670E58B720ADE044A;725
+(rerunfilecheck)             After:  B0FFFA62B8B3DF9226D47E26BFE4289A;1025.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 401.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 418.
  ) 
 Here is how much of TeX's memory you used:
- 8354 strings out of 493014
- 128250 string characters out of 6133352
- 225434 words of memory out of 5000000
- 11692 multiletter control sequences out of 15000+600000
+ 8372 strings out of 493014
+ 128495 string characters out of 6133352
+ 223436 words of memory out of 5000000
+ 11695 multiletter control sequences out of 15000+600000
  44666 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,94p,572b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvro8a.pfb>
-Output written on extended-abstract.pdf (7 pages, 1285799 bytes).
+pdfTeX warning (dest): name{figure.caption.25} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.21} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.19} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.17} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection*.15} has been referenced but does not ex
+ist, replaced by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
+usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvro8a.pfb>
+Output written on extended-abstract.pdf (7 pages, 1289482 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 112 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 253 PDF objects out of 1000 (max. 8388607)
+ 228 compressed objects within 3 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
