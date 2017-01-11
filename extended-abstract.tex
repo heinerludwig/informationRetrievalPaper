@@ -169,17 +169,35 @@ Aus der Sicht der Nutzbarkeit bietet das System folgende Vorteile:
 
 \section{Systemnutzung}
 \subsubsection{Systemstart und erste Suche}
-Nachdem der Nutzer eine Virtual-Reality-Brille erhalten hat, kann er mit Hilfe der smile-Geste eine Übersicht öffnen, die in alle Gesichtsbereiche untergliedert ist. Um eine Suchanfrage zu starten, wählt der Nutzer ein Gesichtsmerkmal aus, indem er das entsprechende virtuelle Objekt mit einer Hand anfasst und mittig vor sich zieht. Sobald der Nutzer das Objekt loslässt, werden verschiedene Variationen des gewählten Gesichtsteils, wieder in Form von Objekten, angezeigt.
+Nachdem der Nutzer eine Virtual-Reality-Brille erhalten hat, kann er mit Hilfe der \textit{smile}-Geste eine Übersicht öffnen, die in alle Gesichtsbereiche untergliedert ist. Um eine Suchanfrage zu starten, wählt der Nutzer ein Gesichtsmerkmal aus, indem er das entsprechende virtuelle Objekt mit einer Hand anfasst und mittig vor sich zieht. Sobald der Nutzer das Objekt loslässt, werden verschiedene Variationen des gewählten Gesichtsteils, wieder in Form von Objekten, angezeigt.
 Dabei ist die räumliche Entfernung zwischen einzelnen Suchergebnissen direkt proportional zu deren Ähnlichkeit.
 
 \subsubsection{Ergebnisexploration und -speicherung}
-Durch die navigation-geste kann der Nutzer den „Ergebnis-Raum“ translatieren, skallieren und rotieren. Ist bspw. ein Suchergebnis passend, kann die Granularität ähnlicher Suchergebnisse verfeinert werden, indem sich der Nutzer virtuell zum Ergebnis-Objekt bewegt und eine Skalierung vornimmt, um sich die Ergebnisse diesen Typs genauer anzuschauen.
-Um Objekte zu speichern und damit dem Phantombild hinzuzufügen, werden diese per Zeige-Geste markiert und mit einer pull-Geste zum Nutzer gezogen. Sind Ergebnisse auszuschließen, können diese markiert und anschließend mit der remove-Geste entfernt werden.
+Durch die navigation-geste kann der Nutzer den „Ergebnis-Raum“
+translatieren, skallieren und rotieren. Ist bspw. ein Suchergebnis
+passend, kann die Menge ähnlicher Suchergebnisse vergrößert und die
+Granularität verfeinert werden werden, indem sich der Nutzer virtuell zum Ergebnis-Objekt bewegt und eine Skalierung vornimmt, um sich die Ergebnisse diesen Typs genauer anzuschauen.
+Um Objekte zu speichern und damit dem Phantombild hinzuzufügen, werden diese per Zeige-Geste markiert und mit einer \textit{pull}-Geste zum Nutzer gezogen. Sind Ergebnisse auszuschließen, können diese markiert und anschließend mit der \textit{remove}-Geste entfernt werden.
 Soll die nächste Suchanfrage durch bereits gefundene Gesichtsmerkmale konkretisiert werden, wird das Ergebnis-Objekt mit beiden Händen gefasst und mittig vor den Nutzer gezogen und so mit dem Suchanfrage-Objekt der vorherigen Suche verknüpft.
 
-\subsubsection{Vertiefende Suchen}
+\subsubsection{Weitere Suchanfragen}
+Nach jeder weiteren Suche, kann das System anhand der vom Nutzer
+ausgewählten und gelöschten Ergebnis-Objekte zunehmend genauere
+Vorschläge für die folgenden Suchanfragen aufstellen. 
+So ist bspw. die Wahrscheinlichkeit, dass eine blauäugiger Mensch eher einen
+(nord-)europäischen Hauttyp besitzt höher, als bei braunäugigen
+Menschen~\cite{eyecolor:article}.
 
 \subsubsection{Rückgängig machen und Verlauf hervorheben}
+Um eine Suchanfrage oder Objektmanipulation rückgängig zu machen,
+kommt die \textit{undo}-Geste zum Einsatz. 
+
+Sollen multiple Arbeitsschritte
+widerrufen werden, wird die \textit{erweiterte undo}-Geste genutzt: 
+Während die eine Hand gehalten wird, erscheint vor dem Nutzer eine virtuelle
+Zeitleiste, anhand der im Arbeitsverlauf vor- und zurückgesprungen
+werden kann. Dazu wird die Hand horizontal nach links bzw. rechts
+bewegt. 
 
 \balance{} 
 
