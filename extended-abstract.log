@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.6)  11 JAN 2017 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.6)  12 JAN 2017 00:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -985,7 +985,7 @@ Overfull \hbox (1.69077pt too wide) in paragraph at lines 140--140
 faces-[]joins-[]oculus/$[][]| 
  []
 
-<figures/system_overview.png, id=64, 891.33pt x 819.06pt>
+<figures/system_overview.png, id=72, 891.33pt x 819.06pt>
 File: figures/system_overview.png Graphic file (type png)
 
 <use figures/system_overview.png>
@@ -1044,6 +1044,11 @@ Overfull \hbox (14.65965pt too wide) in paragraph at lines 195--201
 ste, 
  []
 
+
+Overfull \hbox (1.34787pt too wide) in paragraph at lines 215--216
+[]\T1/phv/m/n/10 select-Geste: Auswählen von Such- oder Ergebnis-Objekten  
+ []
+
 (./extended-abstract.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 43.
 
@@ -1052,29 +1057,34 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 43.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
-
-Overfull \vbox (1.54697pt too high) has occurred while \output is active []
 
 
-[4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+[4])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
+
+Overfull \vbox (0.96826pt too high) has occurred while \output is active []
+
+
+[5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
  (./extended-abstract.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
 Package rerunfilecheck Info: File `extended-abstract.out' has not changed.
-(rerunfilecheck)             Checksum: 8792965AA8BA62D8136B15DB41F7F35C;668.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
+(rerunfilecheck)             Checksum: 8ACC490DA922F610CA0A4B4CDAE03CA5;795.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
  ) 
 Here is how much of TeX's memory you used:
- 8568 strings out of 493014
- 129104 string characters out of 6133352
- 216615 words of memory out of 5000000
- 11929 multiletter control sequences out of 15000+600000
+ 8575 strings out of 493014
+ 129192 string characters out of 6133352
+ 213615 words of memory out of 5000000
+ 11931 multiletter control sequences out of 15000+600000
  34605 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,94p,860b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,94p,860b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texli
@@ -1082,10 +1092,10 @@ ve/2016/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on extended-abstract.pdf (4 pages, 203714 bytes).
+Output written on extended-abstract.pdf (5 pages, 205229 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 102 words of extra memory for PDF output out of 10000 (max. 10000000)
 
