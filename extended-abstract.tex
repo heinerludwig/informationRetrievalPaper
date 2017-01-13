@@ -44,7 +44,7 @@
 
 \title{Erstellung, Suche und Vergleich von Phantombildern in der Augmented Reality}
 
-\numberofauthors{6}
+\numberofauthors{3}
 % Notice how author names are alternately typesetted to appear ordered
 % in 2-column format; i.e., the first 4 autors on the first column and
 % the other 4 auhors on the second column. Actually, it's up to you to
@@ -120,6 +120,14 @@ Die Idee hinter dieser Arbeit ist es Phantombilder als Anfrage für ein datenban
 Ziel soll ein intuitives System sein, welches nach einer Einführung selbstständig von Personen ohne Vorwissen eingesetzt werden kann. Um dem Nutzer einen persönlichen Bearbeitungsraum zu bieten und an die reelle Begegnung anzuknüpfen, wurde entschieden dieses System in die Augmented Reality anzuheben. Gesten sollen dabei als einfache Interaktionsform dienen.
 
 \section{Verwandte Arbeiten}
+\subsubsection{Erstellung von Phantombildern}
+Die klassische Erstellung von Phantombildern findet im Rahmen einer Zeugenaussage auf dem Revier statt. Die Umgebung kann dabei Auswirkungen auf die Genauigkeit der Aussage haben. Erfahrungen zeigten, dass insbesondere anwesende Beamte Einfluss auf die Ergebnisse nahmen. Ihre Aufgabe ist es die Zeugen bei der Rekonstruktion des Gesehenen zu unterstützen. Soziale Faktoren entscheiden dabei darüber wie viele Informationen tatsächlich preisgegeben und ob sie korrekt aufgenommen werden. So können unterschiedliche Vorstellungen und Auffassungen zur Ausprägung von Merkmalen zu Abweichungen führen. Alle beteiligten Personen müssen demnach für ein gutes Ergebnis die gleiche deskriptive Sprache sprechen. ~\cite{buchholz:stimme}
+
+Dieser klassische Prozess wurde bereits in der Vergangenheit versucht auf eine digitale Ebene anzuheben. So existieren eine Vielzahl an einfachen Desktoplösungen, die ein Zusammenstellen verschiedener optischer Merkmale zu einem Phantombild erlauben.
+Die konkrete Suche aufgrund eines veränderbaren Phantombildes hingegen ist unseren Recherchen zu Folge noch nicht so verbreitet. Die wenigen existierenden Systeme brachten aber bereits Erkenntnisse darüber, wie ein moderner Erstellungsprozess ablaufen könnte und welche Faktoren entscheidend sind, um durch die Anfrage auch signifikante Ergebnisse zu erhalten.
+
+Unterschiede zeigten sich insbesondere durch die Auswahl der kombinierbaren Merkmale für die Suchanfrage. "'SpotIt!"' beispielsweise ermöglicht die Auswahl mehrerer Ausprägungen für ein Merkmal und interpoliert anschließend zwischen diesen um die optimale Lösung zu finden. ~\cite{brunelli1996} Ein anderes Personenidentifikationssystem hingegen zeigte, dass bereits eine Unterscheidung des Gesichts in 3 Bereiche reicht, um in der Suche eine Trefferquote von über 90\% zu erreichen. Wichtigster Faktor ist dabei die Ausprägung der Augen. ~\cite{bobulski2012}
+
 \subsubsection{Gesten}
 Gestik als Eingabemedium zur Erstellung von Phantombildern ist gänzlich neu, der Aufbau einer geeigneten Gesten-Sprache demnach unumgänglich. 
 
@@ -182,6 +190,7 @@ Soll die nächste Suchanfrage durch bereits gefundene Gesichtsmerkmale konkretis
 \subsubsection{Rückgängig machen und Verlauf hervorheben}
 
 \balance{} 
+
 
 \bibliographystyle{SIGCHI-Reference-Format}
 \bibliography{sample}

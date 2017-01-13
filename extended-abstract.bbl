@@ -32,6 +32,32 @@
 \ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
 \ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
 
+\bibitem{bobulski2012}
+{Janusz Bobulski} {and} {Mariusz Kubanek}. 2012.
+\newblock \showarticletitle{Person identification system using an identikit
+  picture of the suspect}.
+\newblock {\em Optica Applicata\/} {42}, 4 (2012), 865--873.
+\newblock
+
+
+\bibitem{brunelli1996}
+{Roberto Brunelli} {and} {Ornella Mich}. 1996.
+\newblock \showarticletitle{SpotIt! an interactive identikit system}.
+\newblock {\em Graphical Models and Image Processing\/} {58}, 5 (1996),
+  399--404.
+\newblock
+
+
+\bibitem{buchholz:stimme}
+{Helmut Buchholz}. 2012.
+\newblock \showarticletitle{Wie die Polizei Phantombilder erstellt}.
+\newblock  (2012).
+\newblock
+\showURL{%
+\url{http://www.stimme.de/heilbronn/nachrichten/region/sonstige-Wie-die-Polizei-Phantombilder-erstellt};
+\url{art16305,2541477}}
+
+
 \bibitem{Dorau11}
 {Rainer Dorau}. 2011.
 \newblock {\em Emotionales Interaktionsdesign}.

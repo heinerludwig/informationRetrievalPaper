@@ -1,6 +1,9 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: extended-abstract.aux
 The style file: SIGCHI-Reference-Format.bst
 Database file #1: sample.bib
+Warning--no journal in buchholz:stimme
+Warning--no number and no volume in buchholz:stimme
+Warning--page numbers missing in both pages and numpages fields in buchholz:stimme
 Warning--empty address in vrs:book
 Warning--empty address in 3dinteraction:book
-(There were 2 warnings)
+(There were 5 warnings)
