@@ -1,24 +1,13 @@
 \BOOKMARK [1][-]{section*.3}{Einf\374hrung}{}% 1
 \BOOKMARK [1][-]{section*.5}{Verwandte Arbeiten}{}% 2
-<<<<<<< HEAD
 \BOOKMARK [2][-]{subsubsection*.7}{Erstellung von Phantombildern}{section*.5}% 3
 \BOOKMARK [3][-]{subsubsection*.9}{Gesten}{subsubsection*.7}% 4
 \BOOKMARK [1][-]{section*.12}{Konzept}{}% 5
 \BOOKMARK [1][-]{section*.14}{Systemnutzung}{}% 6
 \BOOKMARK [2][-]{subsubsection*.16}{Systemstart und erste Suche}{section*.14}% 7
 \BOOKMARK [3][-]{subsubsection*.18}{Ergebnisexploration und -speicherung}{subsubsection*.16}% 8
-\BOOKMARK [3][-]{subsubsection*.20}{Vertiefende Suchen}{subsubsection*.16}% 9
+\BOOKMARK [3][-]{subsubsection*.20}{Weitere Suchanfragen}{subsubsection*.16}% 9
 \BOOKMARK [3][-]{subsubsection*.22}{R\374ckg\344ngig machen und Verlauf hervorheben}{subsubsection*.16}% 10
-\BOOKMARK [1][-]{section*.24}{REFERENCES }{}% 11
-=======
-\BOOKMARK [2][-]{subsubsection*.7}{Gesten}{section*.5}% 3
-\BOOKMARK [1][-]{section*.10}{Konzept}{}% 4
-\BOOKMARK [1][-]{section*.12}{Systemnutzung}{}% 5
-\BOOKMARK [2][-]{subsubsection*.14}{Systemstart und erste Suche}{section*.12}% 6
-\BOOKMARK [3][-]{subsubsection*.16}{Ergebnisexploration und -speicherung}{subsubsection*.14}% 7
-\BOOKMARK [3][-]{subsubsection*.18}{Weitere Suchanfragen}{subsubsection*.14}% 8
-\BOOKMARK [3][-]{subsubsection*.20}{R\374ckg\344ngig machen und Verlauf hervorheben}{subsubsection*.14}% 9
-\BOOKMARK [3][-]{subsubsection*.22}{Speichern und Ergebnis}{subsubsection*.14}% 10
-\BOOKMARK [1][-]{section*.24}{Gesten}{}% 11
-\BOOKMARK [1][-]{section*.26}{REFERENCES }{}% 12
->>>>>>> a586259adc05533de33278798850b20832811fcd
+\BOOKMARK [3][-]{subsubsection*.24}{Speichern und Ergebnis}{subsubsection*.16}% 11
+\BOOKMARK [1][-]{section*.26}{Gesten}{}% 12
+\BOOKMARK [1][-]{section*.29}{REFERENCES }{}% 13
