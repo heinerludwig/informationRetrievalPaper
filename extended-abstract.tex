@@ -177,15 +177,16 @@ Aus der Sicht der Nutzbarkeit bietet das System folgende Vorteile:
 
 \section{Systemnutzung}
 \subsubsection{Systemstart und erste Suche}
-Nachdem der Nutzer eine Virtual-Reality-Brille erhalten hat, kann er mit Hilfe der \textit{smile}-Geste eine Übersicht öffnen, die in alle Gesichtsbereiche untergliedert ist. Um eine Suchanfrage zu starten, wählt der Nutzer ein Gesichtsmerkmal aus, indem er das entsprechende virtuelle Objekt mit einer Hand anfasst und mittig vor sich zieht. Sobald der Nutzer das Objekt loslässt, werden verschiedene Variationen des gewählten Gesichtsteils, wieder in Form von Objekten, angezeigt.
-Dabei ist die räumliche Entfernung zwischen einzelnen Suchergebnissen direkt proportional zu deren Ähnlichkeit.
+Nachdem der Nutzer eine Virtual-Reality-Brille erhalten hat, kann er mit Hilfe der \textit{smile}-Geste eine Übersicht öffnen, die in alle Gesichtsbereiche untergliedert ist. Um eine Suchanfrage zu starten, wählt der Nutzer ein Gesichtsmerkmal aus, indem er das entsprechende virtuelle Objekt mit einer Hand anfasst und mittig vor sich zieht. Sobald der Nutzer das Objekt loslässt, werden verschiedene Variationen des gewählten Gesichtsteils, wieder in Form von Objekten, angezeigt. Der Nutzer kann die passendste Ausprägung auswählen und das Merkmal so seiner Suchanfrage hinzufügen.
+
+Das Anfragemenü kann anschließend mittels der umgekehrten Geste wieder geschlossen werden. Die Suche wird automatisch gestartet. Die einzelnen Anfrageobjekte platzieren sich gleichmäßig im Raum, die Ergebnisse befinden sich zwischen diesen. Dabei ist die räumliche Entfernung zwischen einzelnen Suchergebnissen direkt proportional zu deren Ähnlichkeit. Ergebnisse die sich besonders nah an einem Anfrageobjekt bewegen erfüllen dieses Kriterium besonders gut, Ergebnisse die allen Kriterien entsprechen, befinden sich entsprechend mittig.
 
 \subsubsection{Ergebnisexploration und -speicherung}
-Durch die navigation-geste kann der Nutzer den „Ergebnis-Raum“
+Durch die \textit{navigation}-Geste kann der Nutzer den „Ergebnis-Raum“
 translatieren, skallieren und rotieren. Ist bspw. ein Suchergebnis
 passend, kann die Menge ähnlicher Suchergebnisse vergrößert und die
 Granularität verfeinert werden werden, indem sich der Nutzer virtuell zum Ergebnis-Objekt bewegt und eine Skalierung vornimmt, um sich die Ergebnisse diesen Typs genauer anzuschauen.
-Um Objekte zu speichern und damit dem Phantombild hinzuzufügen, werden diese per Zeige-Geste markiert und mit einer \textit{pull}-Geste zum Nutzer gezogen. Sind Ergebnisse auszuschließen, können diese markiert und anschließend mit der \textit{remove}-Geste entfernt werden.
+Um Ergebnisse zu speichern werden diese per Zeige-Geste markiert und mit einer \textit{pull}-Geste zum Nutzer gezogen. Sind Ergebnisse auszuschließen, können diese markiert und anschließend mit der \textit{remove}-Geste entfernt werden.
 Soll die nächste Suchanfrage durch bereits gefundene Gesichtsmerkmale konkretisiert werden, wird das Ergebnis-Objekt mit beiden Händen gefasst und mittig vor den Nutzer gezogen und so mit dem Suchanfrage-Objekt der vorherigen Suche verknüpft.
 
 \subsubsection{Weitere Suchanfragen}
@@ -208,7 +209,9 @@ werden kann. Dazu wird die Hand horizontal nach links bzw. rechts
 bewegt. 
 
 \subsubsection{Speichern und Ergebnis}
+Wie bereits unter Abschnitt \textit{Ergebnisexploration und -speicherung} erwähnt können einzelne Suchergebnisse jederzeit über die \textit{pull}-Geste gespeichert werden. Mittels der \textit{down}-Geste öffnet sich eine Übersicht aller bereits gespeicherten Ergebnisse. Hier befindliche Objekte können jederzeit wieder entfernt werden oder auch nachträglich als Anfrageobjekte eingesetzt werden.
 
+Beendet der Nutzer das System, werden die zu diesem Zeitpunkt gespeicherten Ergebnisse als finales Ergebnis übernommen. Dieses ist auch nach Beenden der Session vom Beamten einsehbar und kann für die weiteren Ermittlungen eingesetzt werden. Wurde das System von mehreren Zeugen genutzt hat der Beamte so die Möglichkeit die Ergebnisse zu vergleichen und auf Überschneidungen der Ergebnismengen zu überprüfen. Die Ergebnisse können ebenfalls einer späteren Session hinzugefügt werden. Der Beamte kann die Auswertung so direkt im System vornehmen.
 
 \section{Gesten}
 Gesten sollen logisch, intuitiv einfach zu erlernen und ergonomisch auszuführen sein~\cite{3dinteraction:book}. 
@@ -233,6 +236,8 @@ erweiterte undo-Geste: Aufzeigen und Steuern des Arbeitsverlaufs
 redo-Geste: Wiederholen des letzten Arbeitsschritt
 
 pull-Geste: Speichern der Ergebnisse
+
+down-Geste: Öffnen der gespeicherten Ergebnisse
 
 \begin{figure}
   \centering
