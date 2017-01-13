@@ -84,6 +84,16 @@
 \showISBNx{9780122277481}
 
 
+\bibitem{eyecolor:article}
+{Peter Frost}. 2006.
+\newblock \showarticletitle{European hair and eye color A case of
+  frequency-dependent sexual selection?}
+\newblock {\em Evolution and Human Behavior 27\/} (2006).
+\newblock
+\showURL{%
+\url{http://www.sciencedirect.com/science/article/pii/S1090513805000590}}
+
+
 \bibitem{3dinteraction:book}
 {Joao Rodrigues}. 2016.
 \newblock {\em Handbook of Research on Human-Computer Interfaces, Developments,
