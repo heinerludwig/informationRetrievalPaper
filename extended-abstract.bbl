@@ -94,6 +94,18 @@
 \url{http://www.sciencedirect.com/science/article/pii/S1090513805000590}}
 
 
+\bibitem{Quek:2002:MHD:568513.568514}
+{Francis Quek}, {David McNeill}, {Robert Bryll}, {Susan Duncan}, {Xin-Feng Ma},
+  {Cemil Kirbas}, {Karl~E. McCullough}, {and} {Rashid Ansari}. 2002.
+\newblock \showarticletitle{Multimodal Human Discourse: Gesture and Speech}.
+\newblock {\em ACM Trans. Comput.-Hum. Interact.\/} {9}, 3 (Sept. 2002),
+  171--193.
+\newblock
+\showISSN{1073-0516}
+\showDOI{%
+\url{http://dx.doi.org/10.1145/568513.568514}}
+
+
 \bibitem{3dinteraction:book}
 {Joao Rodrigues}. 2016.
 \newblock {\em Handbook of Research on Human-Computer Interfaces, Developments,
@@ -110,6 +122,18 @@
 \newblock Iron Man 2.
 \newblock cinematic movie.   (6 May 2010).
 \newblock
+
+
+\bibitem{Wexelblat:1997:RCG:647590.728557}
+{Alan Wexelblat}. 1998.
+\newblock \showarticletitle{Research Challenges in Gesture: Open Issues and
+  Unsolved Problems}. In {\em Proceedings of the International Gesture Workshop
+  on Gesture and Sign Language in Human-Computer Interaction}. Springer-Verlag,
+  London, UK, UK, 1--11.
+\newblock
+\showISBNx{3-540-64424-5}
+\showURL{%
+\url{http://dl.acm.org/citation.cfm?id=647590.728557}}
 
 
 \end{thebibliography}

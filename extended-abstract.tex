@@ -107,26 +107,46 @@
 
 % Do not change the page size or page settings.
 \begin{abstract}
-  Phantombilder sind in der Polizeiarbeit ein unverzichtbares Medium bei der Suche nach Verdächtigen. Diese Arbeit beschäftigt sich damit, wie die dabei gängigen Abläufe in die Augmented Reality angehoben werden können um so die Bedienbarkeit und Nutzererfahrung zu verbessern. Fokus liegt dabei auf einer anfragebasierten, unscharfen Suche anhand der Phantombilder auf einer Datenbank von standardisierten Fotografien verschiedener Personen. Der Nutzer hat so die Möglichkeit seine zusammengestellten (Such-)Kriterien anhand reeller Menschen zu vergleichen und möglicherweise seine Anfrage auf der Suche nach dem besten Treffer anzupassen.
+  Phantombilder sind in der Polizeiarbeit ein unverzichtbares Medium
+  bei der Suche nach Verdächtigen. Diese Arbeit beschäftigt sich
+  damit, wie die dabei gängigen Abläufe in die Augmented Reality
+  angehoben werden können, um so die Bedienbarkeit und Nutzererfahrung
+  zu verbessern. Der Fokus liegt dabei auf einer anfragebasierten, unscharfen Suche anhand der Phantombilder aus einer Datenbank von standardisierten Fotografien verschiedener Personen. Der Nutzer hat so die Möglichkeit, seine zusammengestellten (Such-)Kriterien anhand reeller Menschen zu vergleichen und möglicherweise seine Anfrage auf der Suche nach dem besten Treffer anzupassen.
 \end{abstract}
 
 \keywords{Information Retrieval, Phantombilder, Augmented Reality}
 
 \section{Einführung}
- Auf der Suche nach bestimmten Personen, beispielsweise im Zuge der Ermittlung einer Straftat, sind Phantombilder ein gängiges Hilfsmittel. Augenzeugen versuchen ihre Erinnerung unter Anleitung eines Beamten zu rekonstruieren. Auch wenn die Erstellung solcher Phantombilder bereits auf eine digitale Ebene angehoben wurde, ist der Prozess dennoch bisher sehr statisch. Die skizzenhaft zusammengestellten Merkmale enthalten möglicherweise große Ungenauigkeiten, Nutzer haben keine Möglichkeit ihr Ergebnis mit reellen Menschen abzugleichen. Hinzu kommt der große Einfluss eines anwesenden Beamten. Der Zeuge muss seine Erinnerungen sehr genau und eindeutig beschreiben, um auf der gleichen Ebene dessen zu kommunizieren, da beispielsweise die Beschreibung einer "'hellen Haut"' unterschiedlich aufgefasst werden kann.
+ Auf der Suche nach bestimmten Personen, bspw. im Zuge der Ermittlung einer Straftat, sind Phantombilder ein gängiges Hilfsmittel. Augenzeugen versuchen ihre Erinnerung unter Anleitung eines Beamten zu rekonstruieren. Auch wenn die Erstellung solcher Phantombilder bereits auf eine digitale Ebene angehoben wurde, ist der Prozess dennoch bisher sehr statisch. Die skizzenhaft zusammengestellten Merkmale enthalten möglicherweise große Ungenauigkeiten, Nutzer haben keine Möglichkeit ihr Ergebnis mit reellen Menschen abzugleichen. Hinzu kommt der große Einfluss eines anwesenden Beamten. Der Zeuge muss seine Erinnerungen sehr genau und eindeutig beschreiben, um auf der gleichen Ebene dessen zu kommunizieren, da beispielsweise die Beschreibung einer "'hellen Haut"' unterschiedlich aufgefasst werden kann.
  
-Die Idee hinter dieser Arbeit ist es Phantombilder als Anfrage für ein datenbankbasiertes System zu nutzen. Dies bietet die Möglichkeit die skizzenhafte Anfrage mit reellen Menschen zu vergleichen. Personen fallen so möglicherweise eher Fehler oder Ungenauigkeiten auf und haben die Möglichkeit ihre Anfrage iterativ so weit zu verfeinern, dass die Ergebnismenge der verdächtigen Personen eher ihrer Erinnerung entspricht. Diese Menge ist eineindeutig.
+Die Idee hinter dieser Arbeit ist es, Phantombilder als Suchanfrage
+für ein datenbankbasiertes System zu nutzen. Dies bietet die
+Möglichkeit, die skizzenhafte Anfrage mit reellen Menschen zu
+vergleichen. Personen bemerken so schneller Fehler oder
+Ungenauigkeiten und haben die Möglichkeit ihre Anfrage iterativ so
+weit zu verfeinern, dass die Ergebnismenge der verdächtigen Personen
+eher ihrer Erinnerung entspricht. Diese Menge ist eineindeutig. %Was ist mit "eineindeutig" gemeint?
 
-Ziel soll ein intuitives System sein, welches nach einer Einführung selbstständig von Personen ohne Vorwissen eingesetzt werden kann. Um dem Nutzer einen persönlichen Bearbeitungsraum zu bieten und an die reelle Begegnung anzuknüpfen, wurde entschieden dieses System in die Augmented Reality anzuheben. Gesten sollen dabei als einfache Interaktionsform dienen.
+Ziel soll ein intuitives System sein, welches nach einer Einführung selbstständig von Personen ohne Vorwissen eingesetzt werden kann. Um dem Nutzer einen persönlichen Bearbeitungsraum zu bieten und an die reelle Begegnung anzuknüpfen, wurde entschieden, dieses System in die Augmented Reality anzuheben. Gesten sollen dabei als einfache Interaktionsform dienen.
+% Ist das Ziel der augemnted reality wirklich, an die reelle Begegnung
+% anzuknüpfen? (Vielleicht verstehe ich irgendetwas nicht ;) )
 
 \section{Verwandte Arbeiten}
 \subsubsection{Erstellung von Phantombildern}
-Die klassische Erstellung von Phantombildern findet im Rahmen einer Zeugenaussage auf dem Revier statt. Die Umgebung kann dabei Auswirkungen auf die Genauigkeit der Aussage haben. Erfahrungen zeigten, dass insbesondere anwesende Beamte Einfluss auf die Ergebnisse nahmen. Ihre Aufgabe ist es die Zeugen bei der Rekonstruktion des Gesehenen zu unterstützen. Soziale Faktoren entscheiden dabei darüber wie viele Informationen tatsächlich preisgegeben und ob sie korrekt aufgenommen werden. So können unterschiedliche Vorstellungen und Auffassungen zur Ausprägung von Merkmalen zu Abweichungen führen. Alle beteiligten Personen müssen demnach für ein gutes Ergebnis die gleiche deskriptive Sprache sprechen. ~\cite{buchholz:stimme}
+Die klassische Erstellung von Phantombildern findet im Rahmen einer Zeugenaussage auf dem Revier statt. Die Umgebung kann dabei Auswirkungen auf die Genauigkeit der Aussage haben. Erfahrungen zeigten, dass insbesondere anwesende Beamte Einfluss auf die Ergebnisse nahmen. Ihre Aufgabe ist es, die Zeugen bei der Rekonstruktion des Gesehenen zu unterstützen. Soziale Faktoren entscheiden dabei darüber wie viele Informationen tatsächlich preisgegeben und ob sie korrekt aufgenommen werden. So können unterschiedliche Vorstellungen und Auffassungen zur Ausprägung von Merkmalen zu Abweichungen führen. Alle beteiligten Personen müssen demnach für ein gutes Ergebnis die gleiche deskriptive Sprache sprechen. ~\cite{buchholz:stimme}
 
-Dieser klassische Prozess wurde bereits in der Vergangenheit versucht auf eine digitale Ebene anzuheben. So existieren eine Vielzahl an einfachen Desktoplösungen, die ein Zusammenstellen verschiedener optischer Merkmale zu einem Phantombild erlauben.
-Die konkrete Suche aufgrund eines veränderbaren Phantombildes hingegen ist unseren Recherchen zu Folge noch nicht so verbreitet. Die wenigen existierenden Systeme brachten aber bereits Erkenntnisse darüber, wie ein moderner Erstellungsprozess ablaufen könnte und welche Faktoren entscheidend sind, um durch die Anfrage auch signifikante Ergebnisse zu erhalten.
+Es gab bereits in der Vergangenheit Versuche, diesen Prozess auf eine
+digitale Ebene anzuheben. So existieren eine Vielzahl an einfachen
+Desktoplösungen, die ein Zusammenstellen verschiedener optischer
+Merkmale zu einem Phantombild erlauben. %Quelle?
+Die konkrete Suche aufgrund eines veränderbaren Phantombildes hingegen ist unseren Recherchen zu Folge noch nicht sehr verbreitet. Die wenigen existierenden Systeme brachten aber bereits Erkenntnisse darüber, wie ein moderner Erstellungsprozess ablaufen könnte und welche Faktoren entscheidend sind, um durch die Anfrage auch signifikante Ergebnisse zu erhalten.
+%Quelle: "Die konkrete Suche aufgrund eines veränderbaren Phantombildes
+%hingegen ist unseren Recherchen zu Folge noch nicht sehr verbreitet"
+%-> gibt es überhaupt solche Systeme?
 
-Unterschiede zeigten sich insbesondere durch die Auswahl der kombinierbaren Merkmale für die Suchanfrage. "'SpotIt!"' beispielsweise ermöglicht die Auswahl mehrerer Ausprägungen für ein Merkmal und interpoliert anschließend zwischen diesen um die optimale Lösung zu finden. ~\cite{brunelli1996} Ein anderes Personenidentifikationssystem hingegen zeigte, dass bereits eine Unterscheidung des Gesichts in 3 Bereiche reicht, um in der Suche eine Trefferquote von über 90\% zu erreichen. Wichtigster Faktor ist dabei die Ausprägung der Augen. ~\cite{bobulski2012}
+Unterschiede zeigten sich insbesondere durch die Auswahl der
+kombinierbaren Merkmale für die Suchanfrage. "'SpotIt!"' ermöglicht
+bspw. die Auswahl mehrerer Ausprägungen für ein Merkmal und interpoliert anschließend zwischen diesen um die optimale Lösung zu finden. ~\cite{brunelli1996} Ein anderes Personenidentifikationssystem hingegen zeigte, dass bereits eine Unterscheidung des Gesichts in 3 Bereiche reicht, um in der Suche eine Trefferquote von über 90\% zu erreichen. Wichtigster Faktor ist dabei die Ausprägung der Augen. ~\cite{bobulski2012}
 
 \subsubsection{Gesten}
 Gestik als Eingabemedium zur Erstellung von Phantombildern ist gänzlich neu, der Aufbau einer geeigneten Gesten-Sprache demnach unumgänglich. 
@@ -137,7 +157,7 @@ In~\cite{3dinteraction:book} ist laut einer Nutzerstudie die
 Metaphern-Nutzung bei Gesten weniger effektiv als die Nutzung von
 Freihand-Gesten. 
 
-Gemä{\ss} [7,8] ist allgemein die Nutzung von formalisierten Gesten (``semaphoric gestures'') nicht sinnvoll, da sie während der Interaktion unnatürlich wirkt.
+Gemä{\ss}~\cite{Quek:2002:MHD:568513.568514, Wexelblat:1997:RCG:647590.728557} ist allgemein die Nutzung von formalisierten Gesten (``semaphoric gestures'') nicht sinnvoll, da sie während der Interaktion unnatürlich wirkt.
 ~\cite{3dinteraction:book} besagt jedoch, dass beim Gro{\ss}teil der
 gestenbasierten Eingabesysteme sowohl formalisierte, als auch
 Freihand-Gesten genutzt werden.
@@ -145,7 +165,7 @@ Freihand-Gesten genutzt werden.
 Nicht zuletzt haben Hollywood-Filme wie \textit{Iron Man}~\cite{ironman:movie} oder \textit{Minority Report}~\cite{minorityreport:movie} zur Inspiration für die User Experience und bei der Erstellung der Nutzungsoberfläche gedient.
 
 Zur Kombination von Virtueller Realität mit Gestenmanipulation haben die Firmen \textit{eyeSight\footnote{\url{eyesight-tech.com/vr-ar.html}}} und 
-\textit{pebbles\footnote{\url{www3.oculus.com/en-us/blog/pebbles-interfaces-joins-oculus/}}} unabhängig voneinander eine VR-Brille mit mehreren Kameras kombiniert um die Interaktion mit dem virtuellen Raum für den Nutzer möglich zum machen.
+\textit{pebbles\footnote{\url{www3.oculus.com/en-us/blog/pebbles-interfaces-joins-oculus/}}} unabhängig voneinander eine VR-Brille mit mehreren Kameras kombiniert, um die Interaktion mit dem virtuellen Raum für den Nutzer möglich zum machen.
 
 \begin{figure}
   \centering
@@ -156,7 +176,7 @@ Zur Kombination von Virtueller Realität mit Gestenmanipulation haben die Firmen
 
 \section{Konzept}
 
-Das Konzept zur digitalen Erstellung von Phantombildern ist ein digitales System, welches den Nutzer in eine virtuelle Realität versetzt, die mittels Gesten manipulierbar ist. Durch die Interaktion mit suchanfragen- und ergebnisrepräsentierenden Objekten steuert der Nutzer die Erstellung des Phantombildes, indem er diese Objekte auswählt, verschiebt, löscht oder kombiniert. 
+Das Konzept zur digitale Erstellung von Phantombildern ist ein System, welches den Nutzer in eine virtuelle Realität versetzt, die mittels Gesten manipulierbar ist. Durch die Interaktion mit suchanfragen- und ergebnisrepräsentierenden Objekten, steuert der Nutzer die Erstellung des Phantombildes, indem er diese Objekte auswählt, verschiebt, löscht oder kombiniert. 
 
 Der Nutzer navigiert das System von einem Punkt aus. Um einzelne Objekte genauer zu betrachten, bewegt er sich also nicht körperlich, sondern verändert die Position des virtuellen Raums mittels Translations- und Skalierungsgesten.
 
@@ -164,22 +184,29 @@ Die Objekte sind im 180-Winkel "schwebend" um den Nutzer angeordnet (Figure~\ref
 Das System wird immer nur von einem Nutzer gleichzeitig benutzt,
 weitere Personen können während des gesamten Findungsprozesses
 ausschließlich als Zuschauer involviert werden. So ist eine
-Moderatorenrolle eines Experten denkbar, der Hilfestellung gibt.
+Moderatorenrolle eines Experten denkbar, der dem ausführenden Nutzer Hilfestellung gibt.
 
 Aus der Sicht der Nutzbarkeit bietet das System folgende Vorteile:
 \begin{itemize}\compresslist%
-\item Effizientes und selbstständiges Arbeiten durch intuitive Gesten und Hilfestellung durch das System.
+\item Effizientes und selbstständiges Arbeiten durch intuitive Gesten
+  und mögliche Hilfestellung durch das System.
 \item Sehr direkte Interaktion vom Nutzer mit der Benutzungsoberfläche.
 \item Effektive Ergebnisfindung durch ständiges Feedback und Anpassung vom System.
 \item Nutzerbefriedigung durch immer sichtbaren Fortschritt.
-\item Einsatz ist ortsunabhängig und verlangt nur kleine Räumlichkeiten
+\item Der Einsatz des Systems ist ortsunabhängig und verlangt nur kleine Räumlichkeiten
 \end{itemize}
 
 \section{Systemnutzung}
 \subsubsection{Systemstart und erste Suche}
 Nachdem der Nutzer eine Virtual-Reality-Brille erhalten hat, kann er mit Hilfe der \textit{smile}-Geste eine Übersicht öffnen, die in alle Gesichtsbereiche untergliedert ist. Um eine Suchanfrage zu starten, wählt der Nutzer ein Gesichtsmerkmal aus, indem er das entsprechende virtuelle Objekt mit einer Hand anfasst und mittig vor sich zieht. Sobald der Nutzer das Objekt loslässt, werden verschiedene Variationen des gewählten Gesichtsteils, wieder in Form von Objekten, angezeigt. Der Nutzer kann die passendste Ausprägung auswählen und das Merkmal so seiner Suchanfrage hinzufügen.
 
-Das Anfragemenü kann anschließend mittels der umgekehrten Geste wieder geschlossen werden. Die Suche wird automatisch gestartet. Die einzelnen Anfrageobjekte platzieren sich gleichmäßig im Raum, die Ergebnisse befinden sich zwischen diesen. Dabei ist die räumliche Entfernung zwischen einzelnen Suchergebnissen direkt proportional zu deren Ähnlichkeit. Ergebnisse die sich besonders nah an einem Anfrageobjekt bewegen erfüllen dieses Kriterium besonders gut, Ergebnisse die allen Kriterien entsprechen, befinden sich entsprechend mittig.
+Das Anfragemenü kann anschließend mittels der umgekehrten Geste wieder
+geschlossen werden. Die Suche wird automatisch gestartet. Die
+einzelnen Anfrageobjekte platzieren sich gleichmäßig im Raum, die
+Ergebnisse befinden sich zwischen diesen. Dabei ist die räumliche
+Entfernung zwischen einzelnen Suchergebnissen direkt proportional zu
+deren Ähnlichkeit. Ergebnisse die sich besonders nah an einem
+Anfrageobjekt befinden, erfüllen dieses Kriterium besonders gut, Ergebnisse die allen Kriterien entsprechen, befinden sich entsprechend mittig.
 
 \subsubsection{Ergebnisexploration und -speicherung}
 Durch die \textit{navigation}-Geste kann der Nutzer den „Ergebnis-Raum“
@@ -216,8 +243,15 @@ Beendet der Nutzer das System, werden die zu diesem Zeitpunkt gespeicherten Erge
 \section{Gesten}
 Gesten sollen logisch, intuitiv einfach zu erlernen und ergonomisch auszuführen sein~\cite{3dinteraction:book}. 
 Da das System hauptsächlich bei Laien zum Einsatz kommt, ist es von hoher Wichtigkeit, eingängige Gesten zu finden, um eine gute Nutzbarkeit des Systems zu garantieren.
-Um die eindeutige Interpretation auf technischer Seite und die Unverwechselbarkeit der Gesten Nutzer-seitig zu gewährleisten, sollen Gesten robust sein, sich also klar voneinander unterscheiden~\cite{3dinteraction:book,Dorau11}.
+Um die eindeutige Interpretation auf technischer Seite und die Unverwechselbarkeit der Gesten nutzerseitig zu gewährleisten, sollen Gesten robust sein, sich also klar voneinander unterscheiden~\cite{3dinteraction:book,Dorau11}.
 Des Weiteren benötigt jede Geste eine Abbruch-Möglichkeit~\cite{Dorau11}. Im folgenden Teil werden alle System-Gesten aufgeführt: (Abb. \ref{fig:gestures})
+
+\begin{figure}
+  \centering
+  \includegraphics[width=1.8\marginparwidth]{figures/gestures.png}
+  \caption{Gesten}
+  \label{fig:gestures}
+\end{figure}
 
 smile-Geste: Öffnen bzw. Schließen des Such-Menüs
 
@@ -250,7 +284,7 @@ Der stark reglementierte Prozess zum stufenweisen Aufbau eines
 Phantombildes ist für die Gesten-Eingabe gut geeignet, da keine
 Notwendigkeit für eine „freie Suche“ besteht und somit bspw. auf
 Text-Eingaben durchweg verzichtet werden kann. Das erlaubt es, das
-System sehr einfach zuhalten.
+System sehr einfach zu halten.
 
 Die Gesten bestehen nur aus wenigen Bewegungen, zumeist nur mit einer
 Hand. Dadurch wird der Ermüdung der Gliedmaßen des Nutzers
@@ -263,7 +297,7 @@ Einsatzes vieler Freihand-Gesten~\cite{3dinteraction:book}.
 Der Bezug zur Realität (``Objekt nehmen und verschieben'') erleichtet die
 Verständlichkeit für den Nutzer. Zusätzlich bieten Objekte eine Große
 Interaktions-Oberfläche, wodurch die fehlende Exaktheit von Gesten
-komepnsiert wird~\cite{vrs:book}.
+kompensiert wird~\cite{vrs:book}.
 
 Prinzipiell sollte sich die Frage gestellt werden, ob das Verstehen
 einer neuen Nutzungsoberfläche, oder das Erlernen von Gesten
@@ -274,7 +308,7 @@ virtuellen Oberfläche beschränkt werden. So wird das WIMP-Paradigma
 aufgeweicht, welches möglicherweise zur Verunsicherung bei (routinierten)
 Computer-Nutzern führt. Bspw. wurde auf die gewöhnliche
 Fensteranordnung oder einen Pointer verzichtet, jedoch spielt die
-räumlich Entfernung von Objekten eine wichtige Rolle. 
+räumlich Entfernung von Objekten eine tragende Rolle. 
 
 Zusammenfassend profitiert der Nutzer also nur dann von den einfachen Gesten, wenn er das Prinzip des Systems verinnerlicht hat. 
 
@@ -292,11 +326,11 @@ aufzeigt.
 Durch den iterativen Suchprozess, wird die Suche automatisch immer weiter verfeinert.
 Indem verschiedene Arten von Gesichtsteilen vom Nutzer ausgewählt und
 u.U. zu neuen Suchanfragen zusammengefügt werden, ergibt sich ein
-Phantombild, welches mit jeder Ergebnis-auswahl konkreter wird. Der
+Phantombild, welches mit jeder Ergebnisauswahl konkreter wird. Der
 virtuelle Arbeitsraum in Kombination mit der Gestennutzung soll
-hierbei den Nutzer unterstützen, indem es die Exploration großer
+hierbei den Nutzer unterstützen, indem die Exploration großer
 Datenmengen mit einer neuartigen Oberfläche und einfacher Bedienung
-kombiniert. 
+kombiniert wird. 
 
 Im Idealfall ist das System so direkt zu bedienen, dass der Nutzer
 sich ausschließlich auf die Inhalte konzentriert, nicht auf die
@@ -311,13 +345,6 @@ Verständnisprobleme auftreten.
 
 Eine künftige Ergänzung könnte der Aufbau eines dreidimensionalen Phantombildes 
 darstellen, das die plastische Form des Gesichts verdeutlichen würde. Dafür müssten die entsprechenden Datenbanken im Back-End jedoch 3D-Scans der Gesichter aller Personen bereit stellen, um einen Abgleich starten zu können.
-
-\begin{figure}
-  \centering
-  \includegraphics[width=1.8\marginparwidth]{figures/gestures.png}
-  \caption{Gesten}
-  \label{fig:gestures}
-\end{figure}
 
 \balance{} 
 
