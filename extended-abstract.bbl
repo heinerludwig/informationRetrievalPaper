@@ -32,6 +32,38 @@
 \ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
 \ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
 
+\bibitem{facette}
+ 1986.
+\newblock {\em Facette - Face Design System}.
+\newblock
+\showURL{%
+\url{http://www.facette.de/}}
+
+
+\bibitem{oculus}
+ 2013.
+\newblock {\em Oculus Rift}.
+\newblock
+\showURL{%
+\url{https://www.oculus.com/}}
+
+
+\bibitem{vive}
+ 2015.
+\newblock {\em HTC Vive}.
+\newblock
+\showURL{%
+\url{https://www.vive.com/de/}}
+
+
+\bibitem{identikit}
+ 2017.
+\newblock {\em Identi-Kit 7 - Advanced Facial Composite Software}.
+\newblock
+\showURL{%
+\url{http://identikit.net/}}
+
+
 \bibitem{bobulski2012}
 {Janusz Bobulski} {and} {Mariusz Kubanek}. 2012.
 \newblock \showarticletitle{Person identification system using an identikit
@@ -97,9 +129,8 @@
 \bibitem{Quek:2002:MHD:568513.568514}
 {Francis Quek}, {David McNeill}, {Robert Bryll}, {Susan Duncan}, {Xin-Feng Ma},
   {Cemil Kirbas}, {Karl~E. McCullough}, {and} {Rashid Ansari}. 2002.
-\newblock \showarticletitle{Multimodal Human Discourse: Gesture and Speech}.
-\newblock {\em ACM Trans. Comput.-Hum. Interact.\/} {9}, 3 (Sept. 2002),
-  171--193.
+\newblock {\em Multimodal Human Discourse: Gesture and Speech}. Vol.~9.
+\newblock ACM, New York, NY, USA. 171--193 pages.
 \newblock
 \showISSN{1073-0516}
 \showDOI{%
