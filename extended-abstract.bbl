@@ -42,18 +42,20 @@
 
 \bibitem{oculus}
  2013.
-\newblock {\em Oculus Rift}.
+\newblock Oculus Rift.
+\newblock \url{https://www.oculus.com/}.   (2013).
 \newblock
-\showURL{%
-\url{https://www.oculus.com/}}
+\newblock
+\shownote{Accessed: 2017-01-15.}
 
 
 \bibitem{vive}
  2015.
-\newblock {\em HTC Vive}.
+\newblock HTC Vive.
+\newblock \url{https://www.vive.com/de/}.   (2015).
 \newblock
-\showURL{%
-\url{https://www.vive.com/de/}}
+\newblock
+\shownote{Accessed: 2017-01-15.}
 
 
 \bibitem{identikit}

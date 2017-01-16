@@ -1,5 +1,9 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: extended-abstract.aux
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: extended-abstract.aux
 The style file: SIGCHI-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: sample.bib
 Warning--no key, author, or editor in facette
 Warning--no author, editor, organization, or key in facette
@@ -7,12 +11,12 @@ Warning--to sort, need author, editor, or key in facette
 Warning--no key, author, or editor in identikit
 Warning--no author, editor, organization, or key in identikit
 Warning--to sort, need author, editor, or key in identikit
-Warning--no key, author, or editor in vive
+Warning--no key, author in vive
 Warning--no author, editor, organization, or key in vive
-Warning--to sort, need author, editor, or key in vive
-Warning--no key, author, or editor in oculus
+Warning--to sort, need author or key in vive
+Warning--no key, author in oculus
 Warning--no author, editor, organization, or key in oculus
-Warning--to sort, need author, editor, or key in oculus
+Warning--to sort, need author or key in oculus
 Warning--no key, author in facette
 Warning--no key, author in facette
 Warning--no key, author in identikit
@@ -21,15 +25,10 @@ Warning--no key, author in oculus
 Warning--no key, author in oculus
 Warning--no key, author in vive
 Warning--no key, author in vive
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty author and editor in facette
 Warning--empty publisher in facette
 Warning--empty address in facette
-Warning--empty author and editor in oculus
-Warning--empty publisher in oculus
-Warning--empty address in oculus
-Warning--empty author and editor in vive
-Warning--empty publisher in vive
-Warning--empty address in vive
 Warning--empty author and editor in identikit
 Warning--empty publisher in identikit
 Warning--empty address in identikit
@@ -42,4 +41,45 @@ Warning--page numbers missing in both pages and numpages fields in eyecolor:arti
 Warning--can't use both volume and number fields in Quek:2002:MHD:568513.568514
 Warning--empty address in 3dinteraction:book
 Warning--require articleno with numpages field in Wexelblat:1997:RCG:647590.728557
-(There were 41 warnings)
+You've used 15 entries,
+            5283 wiz_defined-function locations,
+            1321 strings with 16439 characters,
+and the built_in function-call counts, 14548 in all, are:
+= -- 1864
+> -- 246
+< -- 2
++ -- 66
+- -- 447
+* -- 951
+:= -- 1424
+add.period$ -- 79
+call.type$ -- 15
+change.case$ -- 80
+chr.to.int$ -- 15
+cite$ -- 62
+duplicate$ -- 945
+empty$ -- 706
+format.name$ -- 105
+if$ -- 3100
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 31
+newline$ -- 163
+num.names$ -- 66
+pop$ -- 430
+preamble$ -- 1
+purify$ -- 140
+quote$ -- 0
+skip$ -- 224
+stack$ -- 0
+substring$ -- 2141
+swap$ -- 54
+text.length$ -- 710
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 111
+warning$ -- 35
+while$ -- 80
+width$ -- 0
+write$ -- 254
+(There were 35 warnings)
